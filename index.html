@@ -14,25 +14,29 @@
     />
   </head>
   <body>
-    <div class="wrapper">
       <header class="header">
-        <img src="./images/LOGO.png" width="70" height="20px" alt="logo" />
-        <nav class="menu" aria-label="main-navigation">
-          <ul>
-            <li>
-              <a class="is-active" href="#main">Hola</a>
-            </li>
-            <li>
-              <a href="#project">Proyectos</a>
-            </li>
-            <li>
-              <a href="#contact">Hablemos</a>
-            </li>
-          </ul>
-        </nav>
-        <button class="button">Curriculum</button>
+        <div class="wrapper">
+          <div class="header-content">
+            <img src="./images/LOGO.png" width="70" height="20px" alt="logo" />
+            <nav class="menu" aria-label="main-navigation">
+              <ul>
+                <li>
+                  <a class="is-active" href="#main">Hola</a>
+                </li>
+                <li>
+                  <a href="#project">Proyectos</a>
+                </li>
+                <li>
+                  <a href="#contact">Hablemos</a>
+                </li>
+              </ul>
+            </nav>
+            <button class="button">Curriculum</button>
+          </div>
+        </div>
       </header>
-  
+
+    <div class="wrapper">
       <section aria-label="main" class="hero" id="main">
         <div class="hero-image">
           <img
@@ -69,11 +73,11 @@
         </div>
       </section>
 
-      <div class="testimony">
-        <div class="testimony-image">
+      <div class="project" id="project">
+        <div class="project-image">
           <img src="./images/leonidas-project.png" alt="">
         </div>
-        <div class="testimony-description">
+        <div class="project-description">
           <a class="title" href="https://leonidasesteban.com">LeonidasEsteban.com</a>
           <p>Accede a más de 120 proyectos que te ayudarán a mejorar 
             tus habilidades como desarrollador Front-End.
@@ -82,11 +86,11 @@
           <a target="_blank" stylesheet" href=https://leonidasesteban.com" class="button">Ver Proyecto</a>
         </div>
       </div>
-      <div class="testimony">
-        <div class="testimony-image">
+      <div class="project">
+        <div class="project-image">
           <img src="./images/marvol.png" alt="">
         </div>
-        <div class="testimony-description">
+        <div class="project-description">
           <a class="title" href="https://leonidasesteban.com">LeonidasEsteban.com</a>
           <p>Accede a más de 120 proyectos que te ayudarán a mejorar 
             tus habilidades como desarrollador Front-End.
@@ -95,12 +99,12 @@
           <a target="_blank" stylesheet" href=https://leonidasesteban.com" class="button">Ver Proyecto</a>
         </div>
       </div>
-      <div class="testimony">
-          <div class="testimony-image">
+      <div class="project">
+          <div class="project-image">
             <img src="./images/netnet.png" alt="">
           </div>
-          <div class="testimony-description">
-            <a class="testimony-title" href="https://leonidasesteban.com">LeonidasEsteban.com</a>
+          <div class="project-description">
+            <a class="project-title" href="https://leonidasesteban.com">LeonidasEsteban.com</a>
             <p>Accede a más de 120 proyectos que te ayudarán a mejorar 
             tus habilidades como desarrollador Front-End.
             </p>
@@ -126,7 +130,7 @@
         </div>
       </form>
 
-      <footer class="footer">
+      <footer class="footer" id="contact">
         <div class="footer-content">
           <div class="footer-logo">
             <img src="./images/LOGO.png" width="70" height="20px" alt="logo" />
